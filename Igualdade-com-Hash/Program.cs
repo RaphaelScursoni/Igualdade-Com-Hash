@@ -18,6 +18,9 @@ namespace Igualdade_com_Hash {
             Product prod = new Product("Notebook", 1200.0);
             Console.WriteLine(a.Contains(prod));
 
+            Point p = new Point(5, 10);
+            Console.WriteLine(b.Contains(p));
+
         }
     }
 }
